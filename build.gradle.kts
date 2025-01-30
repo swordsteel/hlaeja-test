@@ -7,7 +7,11 @@ plugins {
 }
 
 dependencies {
+    implementation(hlaeja.kotlinx.coroutines)
+    implementation(hlaeja.springboot.starter.r2dbc)
     implementation(hlaeja.springboot.starter.test)
+    implementation(hlaeja.testcontainers.junit)
+    implementation(hlaeja.testcontainers.postgresql)
 
     testRuntimeOnly(hlaeja.junit.platform.launcher)
 }
