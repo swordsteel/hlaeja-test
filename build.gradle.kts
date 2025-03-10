@@ -7,6 +7,7 @@ plugins {
 }
 
 dependencies {
+    implementation(hlaeja.kotlin.logging)
     implementation(hlaeja.kotlinx.coroutines)
     implementation(hlaeja.springboot.starter.r2dbc)
     implementation(hlaeja.springboot.starter.test)
